@@ -3,11 +3,13 @@
     document.getElementById("welcome").append(welcome)
     console.log("Hello JavaScript - Automation Full Stack from QA Ninja !")
     */
-   
+
 /*  Variables have midified values during the execution. 
     In JavaScript the tupe of the variable is dynamic, that is,
     from the moment you include the value the variable will have its
     type defined automatically */
+
+console.log ("--------------VARIABLES--------------")
 
     /* Types of variables */
     
