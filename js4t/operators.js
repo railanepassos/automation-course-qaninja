@@ -35,14 +35,18 @@ console.log("--------------OPERATORS--------------")
    // Not equal
    console.log("Not equal")
    console.log(1 != 4)
+
    // Equal strict
+      // This operator will even compare the type or the variable
    console.log("Equal strict")
    console.log(1==='1')
    console.log(1===1)
    // Not equal strict
+      // This operator will even compare the type or the variable
    console.log("Not equal strict")
    console.log(1 !== '1')
    console.log(1 !== 1)
+   
    // Bigger then
    console.log("Bigger then")
    console.log(1 > 10)
