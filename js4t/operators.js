@@ -29,3 +29,37 @@ console.log("--------------OPERATORS--------------")
      * Equal, Not equal, Equal strict, Not equal strict, Bigger then, 
      * Greater than or equal to, Less then, Less then or equal to
     */
+   // Equal 
+   console.log("Equal strict")
+   console.log(1=='1')
+   // Not equal
+   console.log("Not equal")
+   console.log(1 != 4)
+   // Equal strict
+   console.log("Equal strict")
+   console.log(1==='1')
+   console.log(1===1)
+   // Not equal strict
+   console.log("Not equal strict")
+   console.log(1 !== '1')
+   console.log(1 !== 1)
+   // Bigger then
+   console.log("Bigger then")
+   console.log(1 > 10)
+   console.log(1 > 1)
+   console.log(10 > 1)
+   // Greater than or equal to
+   console.log("Greater than or equal to")
+   console.log(1 >= 10)
+   console.log(1 >= 1)
+   console.log(10 >= 1)
+   // Less then
+   console.log("Less then")
+   console.log(1 < 10)
+   console.log(1 < 1)
+   console.log(10 < 1)
+   // Less then or equal to
+   console.log("Less then or equal to")
+   console.log(2 <= 1)
+   console.log(2 <= 2)
+   console.log(10 <= 1)
