@@ -2,21 +2,41 @@
 // Loops (Repetition Loops)
 
     // For is moved by declaration
-    for (var index = 1; index <= 10; index++) {
-        switch (index) {
+        /*
+        for (var index = 1; index <= 10; index++) {
+            switch (index) {
+                case 1:
+                    console.log(`Repeating because one is less than ten !`)
+                    break;
+                case 2:
+                    console.log(`Repeating because two is less than ten !`)
+                    break;
+                case 3:
+                console.log(`Repeating because three is less than ten !`)
+                    break;
+                default:
+                    console.log(`Repeating because ${index} is less than ten !`)
+                    break;
+            }
+        }
+        */
+    //  Implementing a better solution according to a question answered in stackoverflow
+    //  https://pt.stackoverflow.com/questions/453204/%c3%89-correto-usar-um-switch-dentro-de-um-for
+    console.log("---------------------------- For ----------------------------")
+    for (var index = 1; index <= 10; index ++){
+        var value = `${index}`;
+        switch (index){
             case 1:
-                console.log(`Repeating because one is less than ten !`)
+                value = "one";
                 break;
             case 2:
-                console.log(`Repeating because two is less than ten !`)
+                value = "tow";
                 break;
             case 3:
-            console.log(`Repeating because three is less than ten !`)
-                break;
-            default:
-                console.log(`Repeating because ${index} is less than ten !`)
+                value = "three";
                 break;
         }
+        console.log(`Repeating because ${value} is less than ten !`);
     }
 
     // While is moved for condition and stay this condition while true
