@@ -30,19 +30,14 @@ witch.push('Cornelia Hale');
 witch.push('Nerissa');
 console.log(witch);
 
-witch.splice(witch.indexOf(('Hay Lin'),1));
+var index = witch.indexOf('Will Vandon');
+witch.splice((index),1);
 console.log(witch);
 
-let list = ["bar", "baz", "foo", "qux"];
-console.log(list);
-list.splice(list.indexOf('foo'), 1);
-console.log(list);
-
-
-//var newWitch = ['Phobos', 'Caleb', 'Matt Olsen'];
-//console.log(newWitch);
-//var allWitch = newWitch.concat(witch);
-//console.log(allWitch);
+var newWitch = ['Phobos', 'Caleb', 'Matt Olsen'];
+console.log(newWitch);
+var allWitch = newWitch.concat(witch);
+console.log(allWitch);
 
 
 
