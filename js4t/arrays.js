@@ -24,6 +24,7 @@
    console.log(witch);
    
    // Removing specific element drim list
+   // Fonte: https://www.mundojs.com.br/2018/09/06/removendo-elementos-de-uma-lista-array-javascript/#page-content
    var index = witch.indexOf('Will Vandon');
    witch.splice((index),1);
    console.log(witch);
